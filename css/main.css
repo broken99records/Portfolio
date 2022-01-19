@@ -250,6 +250,50 @@ a {
   Media Queries
 ==================================== */
 
+@media (max-width: 769px) {
+
+  .main-nav{
+    display: none;
+  }
+
+  .AVAILABLE{
+    grid-template-rows: repeat(12, 10vw);
+  }
+
+  
+.num1{
+  grid-row: 1 / span 2;
+  grid-column: 1/ span 6;
+}
+
+
+.num2{
+  grid-row: 3/ span 2;
+  grid-column: 1/ span 6;
+}
+
+.num3{
+  grid-row: 5/ span 2;
+  grid-column: 1/ span 6;
+}
+
+.num4{
+  grid-row: 7/span 2;
+  grid-column: 1/ span 6;
+
+}
+
+.num5{
+  grid-row: 9/ span 2;
+  grid-column: 1/ span 6;
+}
+
+.num6{
+ grid-row: 11/ span 2;
+ grid-column: 1/ span 6;
+}
+}
+
 
 
 
